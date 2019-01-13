@@ -1,0 +1,29 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;background-image: url(../img/12.jpg);background-position: center;background-size: cover;background-attachment:fixed;}
+input,select{font:inherit;margin:0}input{overflow:visible}button,select{text-transform:none}
+html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.wide{letter-spacing:4px}
+img{vertical-align:middle}a{color:inherit}
+.sidebar{height:100%;width:200px;position:fixed;z-index:1;overflow:auto}
+.light-grey{color:#000;}
+.bar-block .bar-item{width:100%;display:block;padding:8px 16px;text-align:center;border:none;white-space:normal;float:none;outline:0}
+.bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.button{width:100%;border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.button:disabled{cursor:not-allowed;opacity:0.3}.disabled *,:disabled *{pointer-events:none}
+.button:hover{color:#000;background-color:#ccc}
+.form-input::-webkit-input-placeholder{color: #000;}
+.form-input::-moz-input-placeholder{color: #000;}
+.form-input::-o-input-placeholder{color: #000;}
+.container {width: 100%; height: auto;}
+.teal {text-align: center; text-transform: uppercase;color: #fff;}
+.form-input, select, textarea { border: 0; color: white; padding: 5px; width: 265px; background-color: rgba(163,163,163,0.4); border-radius: 2px;}
+.form-input {border: 0.5px solid #333; transition: 0.4s; padding: 10px; }
+select, textarea { border: 0.5px solid #333; padding: 5px;}
+select:focus {color: black}
+.form-input:focus {border-color: #ddd; }
+form{width: auto;margin: 0 auto;}
+input[type="submit"] { border-radius: 5px; background-color: #d3741b; color: #ffffff; height: 38px; font-size: 20px;text-transform: uppercase;font-weight: bold; width: auto; border: 2px solid #333; margin-top: 10px;margin-left: 10px; float:right;}
+input[type="submit"]:hover {background-color: #ffffff; color: #000000;}
